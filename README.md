@@ -95,6 +95,25 @@ If a movie is not found, the system gracefully alerts the user.
 - Clean text (lowercase, stemming)
 
 ### **2️⃣ Feature Vectorization**
-```text
-TfidfVectorizer / CountVectorizer
-![App Preview](sample.png)
+Uses:
+- `CountVectorizer`  
+or  
+- `TfidfVectorizer`
+
+### **3️⃣ Similarity Matrix**
+Cosine similarity is computed on vectorized tags and stored for fast access.
+
+---
+
+## 📌 7. Working / Sample App View
+
+### **🔹 App Preview**
+![App Preview](https://github.com/shinde-abhay/MovieRecommender/blob/master/Movie%20Recommendations%20system.png)
+
+---
+
+## 📌 8. How to Run
+
+### **1️⃣ Install Dependencies**
+```bash
+pip install -r requirements.txt
